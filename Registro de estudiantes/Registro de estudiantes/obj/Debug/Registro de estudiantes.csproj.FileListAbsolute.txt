@@ -1,0 +1,11 @@
+C:\Users\jose6\Documents\Practicas C#\Registro de estudiantes\Registro de estudiantes\bin\Debug\Registro de estudiantes.exe.config
+C:\Users\jose6\Documents\Practicas C#\Registro de estudiantes\Registro de estudiantes\bin\Debug\Registro de estudiantes.exe
+C:\Users\jose6\Documents\Practicas C#\Registro de estudiantes\Registro de estudiantes\bin\Debug\Registro de estudiantes.pdb
+C:\Users\jose6\Documents\Practicas C#\Registro de estudiantes\Registro de estudiantes\obj\Debug\Registro de estudiantes.csproj.AssemblyReference.cache
+C:\Users\jose6\Documents\Practicas C#\Registro de estudiantes\Registro de estudiantes\obj\Debug\Registro_de_estudiantes.Form1.resources
+C:\Users\jose6\Documents\Practicas C#\Registro de estudiantes\Registro de estudiantes\obj\Debug\Registro_de_estudiantes.Properties.Resources.resources
+C:\Users\jose6\Documents\Practicas C#\Registro de estudiantes\Registro de estudiantes\obj\Debug\Registro de estudiantes.csproj.GenerateResource.cache
+C:\Users\jose6\Documents\Practicas C#\Registro de estudiantes\Registro de estudiantes\obj\Debug\Registro de estudiantes.csproj.CoreCompileInputs.cache
+C:\Users\jose6\Documents\Practicas C#\Registro de estudiantes\Registro de estudiantes\obj\Debug\Registro de estudiantes.exe
+C:\Users\jose6\Documents\Practicas C#\Registro de estudiantes\Registro de estudiantes\obj\Debug\Registro de estudiantes.pdb
+C:\Users\jose6\Documents\Practicas C#\Registro de estudiantes\Registro de estudiantes\obj\Debug\Registro de estudiantes.exe.config
