@@ -1,0 +1,22 @@
+C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\bin\Debug\Proyecto POS.exe.config
+C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\bin\Debug\Proyecto POS.exe
+C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\bin\Debug\Proyecto POS.pdb
+C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\obj\Debug\Proyecto POS.csproj.AssemblyReference.cache
+C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\obj\Debug\Proyecto_POS.MenuScript.resources
+C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\obj\Debug\Proyecto_POS.Properties.Resources.resources
+C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\obj\Debug\Proyecto POS.csproj.GenerateResource.cache
+C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\obj\Debug\Proyecto POS.csproj.CoreCompileInputs.cache
+C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\obj\Debug\Proyecto POS.exe
+C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\obj\Debug\Proyecto POS.pdb
+C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\obj\Debug\Proyecto POS.exe.config
+C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\Proyecto POS\bin\Debug\Proyecto POS.exe.config
+C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\Proyecto POS\bin\Debug\Proyecto POS.exe
+C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\Proyecto POS\bin\Debug\Proyecto POS.pdb
+C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\Proyecto POS\obj\Debug\Proyecto POS.csproj.AssemblyReference.cache
+C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\Proyecto POS\obj\Debug\Proyecto POS.exe.config
+C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\Proyecto POS\obj\Debug\Proyecto_POS.MenuScript.resources
+C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\Proyecto POS\obj\Debug\Proyecto_POS.Properties.Resources.resources
+C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\Proyecto POS\obj\Debug\Proyecto POS.csproj.GenerateResource.cache
+C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\Proyecto POS\obj\Debug\Proyecto POS.csproj.CoreCompileInputs.cache
+C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\Proyecto POS\obj\Debug\Proyecto POS.exe
+C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\Proyecto POS\obj\Debug\Proyecto POS.pdb
