@@ -308,6 +308,7 @@
             this.btnProducto.TabIndex = 1;
             this.btnProducto.Text = "Productos";
             this.btnProducto.UseVisualStyleBackColor = false;
+            this.btnProducto.Click += new System.EventHandler(this.btnProducto_Click);
             // 
             // btmVentaRapida
             // 

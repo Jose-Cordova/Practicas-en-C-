@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Proyecto_POS.Capa_presentacion;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,6 +21,14 @@ namespace Proyecto_POS
         private void cierreDeCajaToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnProducto_Click(object sender, EventArgs e)
+        {
+            //Crear una instancia de el formulario productos
+            frmProductos frm = new frmProductos();
+            //Muestra el formulario
+            frm.ShowDialog();
         }
     }
 }
