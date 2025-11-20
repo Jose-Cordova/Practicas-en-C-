@@ -30,5 +30,23 @@ namespace Proyecto_POS
             //Muestra el formulario
             frm.ShowDialog();
         }
+
+        private void btnClientes_Click(object sender, EventArgs e)
+        {
+            //Crear una instancia de el formulario productos
+            frmClientes frm = new frmClientes();
+            //Muestra el formulario
+            frm.ShowDialog();
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            //Advertencia antes de cerrar el formulario
+            if (MessageBox.Show("¿Está seguro de cerrar el programa?", "Confirmar",
+            MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                this.Close(); //Cerrar el formulario
+            }
+        }
     }
 }
