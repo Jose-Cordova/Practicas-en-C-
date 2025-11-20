@@ -21,3 +21,4 @@ C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\Proyecto POS\obj
 C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\Proyecto POS\obj\Debug\Proyecto POS.exe
 C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\Proyecto POS\obj\Debug\Proyecto POS.pdb
 C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\obj\Debug\Proyecto_POS.Capa_presentacion.frmProductos.resources
+C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\obj\Debug\Proyecto_POS.Capa_presentacion.frmClientes.resources

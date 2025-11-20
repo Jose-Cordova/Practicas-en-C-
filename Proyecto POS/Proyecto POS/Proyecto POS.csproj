@@ -48,11 +48,18 @@
   <ItemGroup>
     <Compile Include="Capa_entidades\ClassProducto.cs" />
     <Compile Include="Capa_entidades\ClassValidaciones.cs" />
+    <Compile Include="Capa_entidades\Clientes.cs" />
     <Compile Include="Capa_presentacion\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Capa_presentacion\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa_presentacion\frmClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa_presentacion\frmClientes.Designer.cs">
+      <DependentUpon>frmClientes.cs</DependentUpon>
     </Compile>
     <Compile Include="Capa_presentacion\frmProductos.cs">
       <SubType>Form</SubType>
@@ -64,6 +71,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Capa_presentacion\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa_presentacion\frmClientes.resx">
+      <DependentUpon>frmClientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Capa_presentacion\frmProductos.resx">
       <DependentUpon>frmProductos.cs</DependentUpon>
