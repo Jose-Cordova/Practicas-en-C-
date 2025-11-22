@@ -21,6 +21,20 @@ namespace Proyecto_POS.Capa_presentacion
         }
         //Creacion de una lista que simule una base de datos
         public static List<Clientes> ListaClientes = new List<Clientes>();
+        private void DesabilitarBotones()
+        {
+            btnLimpiar.Enabled = false;
+            btnModificar.Enabled = false;
+            btnEliminar.Enabled = false;
+            btnCliente.Enabled = true;
+        }
+        private void HabilitarBotones()
+        {
+            btnLimpiar.Enabled = true;
+            btnModificar.Enabled = true;
+            btnEliminar.Enabled = true;
+            btnCliente.Enabled = false;
+        }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
@@ -29,6 +43,7 @@ namespace Proyecto_POS.Capa_presentacion
 
         private void frmClientes_Load(object sender, EventArgs e)
         {
+            DesabilitarBotones();
             //Se llenan los datos de la lista
             if (!ListaClientes.Any())
             {
@@ -127,6 +142,7 @@ namespace Proyecto_POS.Capa_presentacion
         //Evento al hacer click en una celda del DataGridView
         private void dgvClientes_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            HabilitarBotones();
             if (dgvClientes.CurrentRow == null) return;
             //Obtener el cliente seleccionado
             txtid.Text = dgvClientes.CurrentRow.Cells["id"].Value.ToString();
@@ -160,6 +176,8 @@ namespace Proyecto_POS.Capa_presentacion
                 ListaClientes.Remove(cliente);//con remove elimino el producto de la lista
                 RefrescarGrid();//refrescar el datagridview
                 LimpiarCampos();//limpiar los controles
+                DesabilitarBotones();
+
             }
         }
         //Evento para actualizar los datos de un cliente
@@ -224,6 +242,7 @@ namespace Proyecto_POS.Capa_presentacion
                 MessageBoxButtons.OK, MessageBoxIcon.Information);
             RefrescarGrid(); //Refrescar el DataGridView
             LimpiarCampos(); //Limpiar los campos
+            DesabilitarBotones();
         }
 
         private void btnVolver_Click(object sender, EventArgs e)
@@ -234,6 +253,16 @@ namespace Proyecto_POS.Capa_presentacion
             {
                 this.Close(); //Cerrar el formulario actual
             }
+
+        }
+
+        private void txtid_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtEmail_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }
