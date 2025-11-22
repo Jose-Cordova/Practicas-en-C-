@@ -19,6 +19,21 @@ namespace Proyecto_POS.Capa_presentacion
         }
         //Creacion de una lista estatica que simulara la BD
         public static List<ClassProducto> ListaProductos = new List<ClassProducto>();
+        private void DesabilitarBotones()
+        {
+            btnEditar.Enabled = false;
+            btnEliminar.Enabled = false;
+            btnLimpiar.Enabled = false;
+            btnNuevo.Enabled = true;
+
+        }
+        private void HabilitarBotones()
+        {
+            btnNuevo.Enabled = false;
+            btnEditar.Enabled = true;
+            btnEliminar.Enabled = true;
+            btnLimpiar.Enabled = true;
+        }
 
 
         private void label5_Click(object sender, EventArgs e)
@@ -28,6 +43,7 @@ namespace Proyecto_POS.Capa_presentacion
 
         private void frmProductos_Load(object sender, EventArgs e)
         {
+            DesabilitarBotones();
             //Se llenan los datos de la lista
             if (!ListaProductos.Any())
             {
@@ -115,6 +131,8 @@ namespace Proyecto_POS.Capa_presentacion
             txtPrecio.Text = dgv.CurrentRow.Cells["precio"].Value.ToString();
             txtStock.Text = dgv.CurrentRow.Cells["stock"].Value.ToString();
             chkEstado.Checked = (bool)dgv.CurrentRow.Cells["Estado"].Value;
+            //Habilitar los botones
+            HabilitarBotones();
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
@@ -139,6 +157,7 @@ namespace Proyecto_POS.Capa_presentacion
                 ListaProductos.Remove(prod);//con remove elimino el producto de la lista
                 RefrescarGrid();//refrescar el datagridview
                 LimpiarCampos();//limpiar los controles
+                DesabilitarBotones();
             }
 
         }
@@ -192,6 +211,7 @@ namespace Proyecto_POS.Capa_presentacion
                 MessageBoxButtons.OK, MessageBoxIcon.Information);
             RefrescarGrid();//refrescar el datagridview
             LimpiarCampos();//limpiar los controles
+            DesabilitarBotones();
         }
 
         private void btnVolver_Click(object sender, EventArgs e)
@@ -202,6 +222,11 @@ namespace Proyecto_POS.Capa_presentacion
             {
                 this.Close(); //Cerrar el formulario actual
             }
+        }
+
+        private void dgv_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

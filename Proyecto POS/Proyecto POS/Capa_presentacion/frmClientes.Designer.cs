@@ -163,6 +163,7 @@
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(232, 30);
             this.txtEmail.TabIndex = 7;
+            this.txtEmail.TextChanged += new System.EventHandler(this.txtEmail_TextChanged);
             // 
             // label5
             // 
@@ -212,6 +213,7 @@
             this.txtid.ReadOnly = true;
             this.txtid.Size = new System.Drawing.Size(86, 30);
             this.txtid.TabIndex = 1;
+            this.txtid.TextChanged += new System.EventHandler(this.txtid_TextChanged);
             // 
             // label2
             // 
