@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace Proyecto_POS.Capa_entidades
 {
+    // =====================================================================
+    // ZONA: Clase de Producto
+    // AQUI SE DEFINEN LOS ATRIBUTOS DE LA CLASE PRODUCTO
+    // =====================================================================
     public class ClassProducto //Se crea la clase producto y se deja publica
     {
         //Se definen los atributos de la clase 

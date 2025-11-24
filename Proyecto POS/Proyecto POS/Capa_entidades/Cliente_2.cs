@@ -6,14 +6,10 @@ using System.Threading.Tasks;
 
 namespace Proyecto_POS.Capa_entidades
 {
-    // =====================================================================
-    // ZONA: Clase de Clientes
-    // AQUI SE DEFINEN LOS ATRIBUTOS DE LA CLASE CLIENTES
-    // =====================================================================
-    public class Clientes
+    //Clase cliente, tabla que esta en la base de datos
+    public class Cliente_2
     {
-        //Se definen los atributos de la clase
-        public int id { get; set; } //get y set para poder acceder y modificar los atributos
+        public int id {  get; set; }
         public string nombre { get; set; }
         public string apellido { get; set; }
         public string dui { get; set; }
@@ -22,5 +18,4 @@ namespace Proyecto_POS.Capa_entidades
         public bool estado { get; set; }
 
     }
-
 }

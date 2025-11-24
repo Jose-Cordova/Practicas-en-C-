@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 
 namespace Proyecto_POS.Capa_entidades
 {
+    // =====================================================================
+    // ZONA: Clase de validaciones
+    // AQUI SE CREAN LAS VALIDACIONES PARA LOS TIPOS DE DATOS INGRESADOS
+    // =====================================================================
     //Se crea la clase de validaciones y se deja publica
     public static class ClassValidaciones
     {
