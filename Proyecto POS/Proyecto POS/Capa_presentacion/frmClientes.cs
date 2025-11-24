@@ -19,8 +19,17 @@ namespace Proyecto_POS.Capa_presentacion
         {
             InitializeComponent();
         }
+        // =====================================================================
+        // ZONA 1: DATOS (BASE DE DATOS SIMULADA)
+        // AQUÍ GUARDAMOS LA INFORMACIÓN MIENTRAS EL PROGRAMA ESTÁ ABIERTO
+        // =====================================================================
         //Creacion de una lista que simule una base de datos
         public static List<Clientes> ListaClientes = new List<Clientes>();
+
+        // =====================================================================
+        // ZONA 2: HERRAMIENTAS VISUALES
+        // MÉTODOS PARA ENCENDER Y APAGAR BOTONES SEGÚN LO QUE HAGA EL USUARIO
+        // =====================================================================
         private void DesabilitarBotones()
         {
             btnLimpiar.Enabled = false;
@@ -41,6 +50,10 @@ namespace Proyecto_POS.Capa_presentacion
 
         }
 
+        // =====================================================================
+        // ZONA 3: ARRANQUE (LOAD)
+        // ESTO ES LO PRIMERO QUE SE EJECUTA AL ABRIR LA VENTANA
+        // =====================================================================
         private void frmClientes_Load(object sender, EventArgs e)
         {
             DesabilitarBotones();
@@ -63,17 +76,27 @@ namespace Proyecto_POS.Capa_presentacion
 
 
         }
+
+        // =====================================================================
+        // ZONA 4: PINTADO (REFRESCAR TABLA)
+        // ACTUALIZA LA TABLA VISUAL CON LOS DATOS DE LA MEMORIA
+        // =====================================================================
         //Asignar la lista
         private void RefrescarGrid() //Metodo para refrescar el DataGridView
         {
             dgvClientes.DataSource = null; //Limpiar el DataSource antes de asignarlo
             dgvClientes.DataSource = ListaClientes; //Asignar la lista como DataSource
         }
+
+        // =====================================================================
+        // ZONA 5: REGISTRO (BOTÓN GUARDAR)
+        // CREA UN NUEVO CLIENTE DESDE CERO
+        // =====================================================================
         //Boton registra cliente
         private void btnCliente_Click(object sender, EventArgs e)
         {
             //Validaciones basicas
-            //Validar que el nombre no este vacio
+            // --- PASO 1: VALIDACIONES DE SEGURIDAD ---
             if (string.IsNullOrWhiteSpace(txtNombre.Text))
             {
                 MessageBox.Show("El nombre del cliente es obligatorio.", "Error",
@@ -105,6 +128,8 @@ namespace Proyecto_POS.Capa_presentacion
                 mkdTelefono.Focus();
                 return;
             }
+
+            // --- PASO 2: CREAR EL CLIENTE EN MEMORIA ---
             //Crear un objeto cliente y aignar id atomaticamente
             int nuevoid = ListaClientes.Any() ? ListaClientes.Max(x => x.id) + 1 : 1;
             var cliente = new Clientes
@@ -117,6 +142,8 @@ namespace Proyecto_POS.Capa_presentacion
                 correo = txtEmail.Text.Trim(),
                 estado = chkEstado.Checked
             };
+
+            // --- PASO 3: GUARDAR Y MOSTRAR ---
             //Agregar el cliente a la lista
             ListaClientes.Add(cliente);
             //Refrescar el DataGridView
@@ -139,12 +166,17 @@ namespace Proyecto_POS.Capa_presentacion
         {
             LimpiarCampos();
         }
+
+        // =====================================================================
+        // ZONA 6: SELECCIÓN (CLIC EN LA TABLA)
+        // PASA LOS DATOS DE LA TABLA HACIA LAS CAJAS DE TEXTO
+        // =====================================================================
         //Evento al hacer click en una celda del DataGridView
         private void dgvClientes_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             HabilitarBotones();
             if (dgvClientes.CurrentRow == null) return;
-            //Obtener el cliente seleccionado
+            // COPIA LOS DATOS DE LA FILA SELECCIONADA A LOS TEXTBOX
             txtid.Text = dgvClientes.CurrentRow.Cells["id"].Value.ToString();
             txtNombre.Text = dgvClientes.CurrentRow.Cells["nombre"].Value.ToString();
             txtApellido.Text = dgvClientes.CurrentRow.Cells["apellido"].Value.ToString();
@@ -154,6 +186,10 @@ namespace Proyecto_POS.Capa_presentacion
             chkEstado.Checked = (bool)dgvClientes.CurrentRow.Cells["estado"].Value;
         }
 
+        // =====================================================================
+        // ZONA 7: ELIMINACIÓN (BOTÓN BORRAR)
+        // BORRA UN CLIENTE SI EL USUARIO CONFIRMA
+        // =====================================================================
         private void btnEliminar_Click(object sender, EventArgs e)
         {
             //Evento para eliminar un cliente
@@ -180,9 +216,14 @@ namespace Proyecto_POS.Capa_presentacion
 
             }
         }
-        //Evento para actualizar los datos de un cliente
+
+        // =====================================================================
+        // ZONA 8: MODIFICACIÓN (BOTÓN ACTUALIZAR)
+        // CAMBIA LOS DATOS DE UN CLIENTE YA EXISTENTE
+        // =====================================================================
         private void btnModificar_Click(object sender, EventArgs e)
         {
+            //Evento para actualizar los datos de un cliente
             if (!int.TryParse(txtid.Text, out int id))
             {
                 MessageBox.Show("Seleccione un cliente existente para modificar.", "Error",
@@ -245,6 +286,10 @@ namespace Proyecto_POS.Capa_presentacion
             DesabilitarBotones();
         }
 
+        // =====================================================================
+        // ZONA 9: SALIDA
+        // CIERRA LA VENTANA
+        // =====================================================================
         private void btnVolver_Click(object sender, EventArgs e)
         {
             //Advertencia antes de cerrar el formulario
