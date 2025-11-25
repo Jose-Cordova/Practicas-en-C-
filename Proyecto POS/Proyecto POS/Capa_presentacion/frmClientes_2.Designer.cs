@@ -102,6 +102,7 @@
             this.txtBuscar.Name = "txtBuscar";
             this.txtBuscar.Size = new System.Drawing.Size(192, 22);
             this.txtBuscar.TabIndex = 6;
+            this.txtBuscar.TextChanged += new System.EventHandler(this.txtBuscar_TextChanged);
             // 
             // btnLimpiar
             // 
@@ -114,6 +115,7 @@
             this.btnLimpiar.TabIndex = 7;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = false;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
             // btnGuardar
             // 
@@ -126,6 +128,7 @@
             this.btnGuardar.TabIndex = 8;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = false;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // btnEliminar
             // 
@@ -138,6 +141,7 @@
             this.btnEliminar.TabIndex = 9;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnVolver
             // 
@@ -150,6 +154,7 @@
             this.btnVolver.TabIndex = 10;
             this.btnVolver.Text = "Volver";
             this.btnVolver.UseVisualStyleBackColor = false;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
             // dgvClientes_2
             // 
@@ -162,6 +167,7 @@
             this.dgvClientes_2.RowTemplate.Height = 24;
             this.dgvClientes_2.Size = new System.Drawing.Size(744, 150);
             this.dgvClientes_2.TabIndex = 11;
+            this.dgvClientes_2.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvClientes_2_CellClick);
             this.dgvClientes_2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvClientes_2_CellContentClick);
             // 
             // label1

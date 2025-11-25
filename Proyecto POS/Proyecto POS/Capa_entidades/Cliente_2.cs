@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,5 +18,5 @@ namespace Proyecto_POS.Capa_entidades
         public string correo { get; set; }
         public bool estado { get; set; }
 
-    }
+    } 
 }
