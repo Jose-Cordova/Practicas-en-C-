@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\jose6\\Documents\\Practicas C#\\Proyecto POS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1AD16B58-403D-4191-AF84-4DEA7D416B77}|Proyecto POS\\Proyecto POS.csproj|C:\\Users\\jose6\\Documents\\Practicas C#\\Proyecto POS\\proyecto pos\\capa_datos\\cliente_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AD16B58-403D-4191-AF84-4DEA7D416B77}|Proyecto POS\\Proyecto POS.csproj|solutionrelative:proyecto pos\\capa_datos\\cliente_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1AD16B58-403D-4191-AF84-4DEA7D416B77}|Proyecto POS\\Proyecto POS.csproj|C:\\Users\\jose6\\Documents\\Practicas C#\\Proyecto POS\\proyecto pos\\capa_negocio\\cliente_bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AD16B58-403D-4191-AF84-4DEA7D416B77}|Proyecto POS\\Proyecto POS.csproj|solutionrelative:proyecto pos\\capa_negocio\\cliente_bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,20 +11,20 @@
       "RelativeMoniker": "D:0:0:{1AD16B58-403D-4191-AF84-4DEA7D416B77}|Proyecto POS\\Proyecto POS.csproj|solutionrelative:proyecto pos\\capa_presentacion\\frmclientes_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1AD16B58-403D-4191-AF84-4DEA7D416B77}|Proyecto POS\\Proyecto POS.csproj|C:\\Users\\jose6\\Documents\\Practicas C#\\Proyecto POS\\proyecto pos\\capa_datos\\cliente_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AD16B58-403D-4191-AF84-4DEA7D416B77}|Proyecto POS\\Proyecto POS.csproj|solutionrelative:proyecto pos\\capa_datos\\cliente_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AD16B58-403D-4191-AF84-4DEA7D416B77}|Proyecto POS\\Proyecto POS.csproj|c:\\users\\jose6\\documents\\practicas c#\\proyecto pos\\proyecto pos\\capa_entidades\\cliente_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AD16B58-403D-4191-AF84-4DEA7D416B77}|Proyecto POS\\Proyecto POS.csproj|solutionrelative:proyecto pos\\capa_entidades\\cliente_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1AD16B58-403D-4191-AF84-4DEA7D416B77}|Proyecto POS\\Proyecto POS.csproj|C:\\Users\\jose6\\Documents\\Practicas C#\\Proyecto POS\\proyecto pos\\capa_presentacion\\frmclientes_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1AD16B58-403D-4191-AF84-4DEA7D416B77}|Proyecto POS\\Proyecto POS.csproj|solutionrelative:proyecto pos\\capa_presentacion\\frmclientes_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AD16B58-403D-4191-AF84-4DEA7D416B77}|Proyecto POS\\Proyecto POS.csproj|c:\\users\\jose6\\documents\\practicas c#\\proyecto pos\\proyecto pos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AD16B58-403D-4191-AF84-4DEA7D416B77}|Proyecto POS\\Proyecto POS.csproj|solutionrelative:proyecto pos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AD16B58-403D-4191-AF84-4DEA7D416B77}|Proyecto POS\\Proyecto POS.csproj|c:\\users\\jose6\\documents\\practicas c#\\proyecto pos\\proyecto pos\\capa_datos\\conexion_db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1AD16B58-403D-4191-AF84-4DEA7D416B77}|Proyecto POS\\Proyecto POS.csproj|C:\\Users\\jose6\\Documents\\Practicas C#\\Proyecto POS\\proyecto pos\\capa_datos\\conexion_db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AD16B58-403D-4191-AF84-4DEA7D416B77}|Proyecto POS\\Proyecto POS.csproj|solutionrelative:proyecto pos\\capa_datos\\conexion_db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AD16B58-403D-4191-AF84-4DEA7D416B77}|Proyecto POS\\Proyecto POS.csproj|C:\\Users\\jose6\\Documents\\Practicas C#\\Proyecto POS\\proyecto pos\\capa_entidades\\cliente_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AD16B58-403D-4191-AF84-4DEA7D416B77}|Proyecto POS\\Proyecto POS.csproj|solutionrelative:proyecto pos\\capa_entidades\\cliente_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,13 +42,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Cliente_DAL.cs",
               "DocumentMoniker": "C:\\Users\\jose6\\Documents\\Practicas C#\\Proyecto POS\\Proyecto POS\\Capa_datos\\Cliente_DAL.cs",
               "RelativeDocumentMoniker": "Proyecto POS\\Capa_datos\\Cliente_DAL.cs",
               "ToolTip": "C:\\Users\\jose6\\Documents\\Practicas C#\\Proyecto POS\\Proyecto POS\\Capa_datos\\Cliente_DAL.cs",
               "RelativeToolTip": "Proyecto POS\\Capa_datos\\Cliente_DAL.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAYwEUAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAuwEUAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T13:41:06.711Z",
               "EditorCaption": ""
@@ -60,19 +56,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jose6\\Documents\\Practicas C#\\Proyecto POS\\Proyecto POS\\Program.cs",
-              "RelativeDocumentMoniker": "Proyecto POS\\Program.cs",
-              "ToolTip": "C:\\Users\\jose6\\Documents\\Practicas C#\\Proyecto POS\\Proyecto POS\\Program.cs",
-              "RelativeToolTip": "Proyecto POS\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T20:50:20.367Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "frmClientes_2.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\jose6\\Documents\\Practicas C#\\Proyecto POS\\Proyecto POS\\Capa_presentacion\\frmClientes_2.cs",
               "RelativeDocumentMoniker": "Proyecto POS\\Capa_presentacion\\frmClientes_2.cs",
@@ -84,26 +67,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "frmClientes_2.cs",
               "DocumentMoniker": "C:\\Users\\jose6\\Documents\\Practicas C#\\Proyecto POS\\Proyecto POS\\Capa_presentacion\\frmClientes_2.cs",
               "RelativeDocumentMoniker": "Proyecto POS\\Capa_presentacion\\frmClientes_2.cs",
               "ToolTip": "C:\\Users\\jose6\\Documents\\Practicas C#\\Proyecto POS\\Proyecto POS\\Capa_presentacion\\frmClientes_2.cs",
               "RelativeToolTip": "Proyecto POS\\Capa_presentacion\\frmClientes_2.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAArwB8AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowDwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T15:43:27.261Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Cliente_BLL.cs",
               "DocumentMoniker": "C:\\Users\\jose6\\Documents\\Practicas C#\\Proyecto POS\\Proyecto POS\\Capa_negocio\\Cliente_BLL.cs",
               "RelativeDocumentMoniker": "Proyecto POS\\Capa_negocio\\Cliente_BLL.cs",
               "ToolTip": "C:\\Users\\jose6\\Documents\\Practicas C#\\Proyecto POS\\Proyecto POS\\Capa_negocio\\Cliente_BLL.cs",
               "RelativeToolTip": "Proyecto POS\\Capa_negocio\\Cliente_BLL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAxwDQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T15:05:54.754Z",
               "EditorCaption": ""
@@ -116,20 +99,19 @@
               "RelativeDocumentMoniker": "Proyecto POS\\Capa_datos\\Conexion_DB.cs",
               "ToolTip": "C:\\Users\\jose6\\Documents\\Practicas C#\\Proyecto POS\\Proyecto POS\\Capa_datos\\Conexion_DB.cs",
               "RelativeToolTip": "Proyecto POS\\Capa_datos\\Conexion_DB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T13:28:15.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T13:28:15.69Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Cliente_2.cs",
               "DocumentMoniker": "C:\\Users\\jose6\\Documents\\Practicas C#\\Proyecto POS\\Proyecto POS\\Capa_entidades\\Cliente_2.cs",
               "RelativeDocumentMoniker": "Proyecto POS\\Capa_entidades\\Cliente_2.cs",
               "ToolTip": "C:\\Users\\jose6\\Documents\\Practicas C#\\Proyecto POS\\Proyecto POS\\Capa_entidades\\Cliente_2.cs",
               "RelativeToolTip": "Proyecto POS\\Capa_entidades\\Cliente_2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T13:22:25.486Z",
               "EditorCaption": ""

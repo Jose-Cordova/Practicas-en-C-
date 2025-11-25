@@ -44,7 +44,7 @@ namespace Proyecto_POS.Capa_datos
                     //Asigna los valores reales del objeto 'c' a los parámetros de la consulta.
                     cmd.Parameters.AddWithValue("@nombre", c.nombre);
                     cmd.Parameters.AddWithValue("@apellido", c.apellido);
-                    cmd.Parameters.AddWithValue("dui", c.dui);
+                    cmd.Parameters.AddWithValue("@dui", c.dui);
                     cmd.Parameters.AddWithValue("@telefono", c.telefono);
                     cmd.Parameters.AddWithValue("@correo", c.correo);
                     cmd.Parameters.AddWithValue("@estado", c.estado);
@@ -67,7 +67,7 @@ namespace Proyecto_POS.Capa_datos
                     cmd.Parameters.AddWithValue("@id", c.id);
                     cmd.Parameters.AddWithValue("@nombre", c.nombre);
                     cmd.Parameters.AddWithValue("@apellido", c.apellido);
-                    cmd.Parameters.AddWithValue("dui", c.dui);
+                    cmd.Parameters.AddWithValue("@dui", c.dui);
                     cmd.Parameters.AddWithValue("@telefono", c.telefono);
                     cmd.Parameters.AddWithValue("@correo", c.correo);
                     cmd.Parameters.AddWithValue("@estado", c.estado);
