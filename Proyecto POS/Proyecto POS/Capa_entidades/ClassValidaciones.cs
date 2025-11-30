@@ -34,7 +34,6 @@ namespace Proyecto_POS.Capa_entidades
             //Exprecion regular para validar correo
             var patron = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
             return Regex.IsMatch(email, patron); //Metodo que compara la cadena con el patron
-
         }
     }
 }

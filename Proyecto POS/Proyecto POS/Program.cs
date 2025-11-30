@@ -17,7 +17,7 @@ namespace Proyecto_POS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmClientes_2());
+            Application.Run(new frmRegistrar_venta());
         }
     }
 }

@@ -47,6 +47,6 @@ namespace Proyecto_POS
             {
                 this.Close(); //Cerrar el formulario
             }
-        }
+        }                                                                            
     }
 }
