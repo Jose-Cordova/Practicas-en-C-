@@ -60,7 +60,7 @@ namespace Proyecto_POS.Capa_datos
             using (SqlConnection cn = new SqlConnection(Conexion_DB.cadena))
             {
                 //Instrucción UPDATE. Importante: El WHERE asegura que solo modifiques al cliente correcto.
-                string sql = @"UPDATE cliente SET nombre=@nombre, apellido=@apellido, dui=@dui, telefono=@telefono, correo=@correo, estado=@estado WHERE id=@id";
+                string sql = @"UPDATE clientes SET nombre=@nombre, apellido=@apellido, dui=@dui, telefono=@telefono, correo=@correo, estado=@estado WHERE id=@id";
                 using (SqlCommand cmd = new SqlCommand(sql, cn))
                 {
                     //Se envían todos los parámetros, incluido el ID para saber a quién editar.
@@ -111,6 +111,37 @@ namespace Proyecto_POS.Capa_datos
                 }
             }
             return dt;
+        }
+        public static List<Clientes> Listar_activos()
+        {
+            List<Clientes> lista = new List<Clientes>();
+
+            using (SqlConnection con = new SqlConnection(Conexion_DB.cadena))
+            {
+                string sql = "SELECT * FROM Clientes WHERE estado = 1";
+
+                using (SqlCommand cmd = new SqlCommand(sql, con))
+                {
+                    con.Open();
+                    using (SqlDataReader dr = cmd.ExecuteReader())
+                    {
+                        while (dr.Read())
+                        {
+                            lista.Add(new Clientes
+                            {
+                                id = Convert.ToInt32(dr["id"]),
+                                nombre = dr["nombre"].ToString(),
+                                apellido = dr["apellido"].ToString(),
+                                dui = dr["dui"].ToString(),
+                                telefono = dr["telefono"].ToString(),
+                                correo = dr["correo"].ToString(),
+                                estado = Convert.ToBoolean(dr["estado"])
+                            });
+                        }
+                    }
+                }
+            }
+            return lista;
         }
     }
 }

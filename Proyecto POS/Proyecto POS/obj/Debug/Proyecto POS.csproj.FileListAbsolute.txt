@@ -23,3 +23,8 @@ C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\Proyecto POS\obj
 C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\obj\Debug\Proyecto_POS.Capa_presentacion.frmProductos.resources
 C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\obj\Debug\Proyecto_POS.Capa_presentacion.frmClientes.resources
 C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\obj\Debug\Proyecto_POS.Capa_presentacion.frmClientes_2.resources
+C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\obj\Debug\Proyecto_POS.Capa_presentacion.frmCategoria.resources
+C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\obj\Debug\Proyecto_POS.Capa_presentacion.frmCategoria_gestion2.resources
+C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\obj\Debug\Proyecto_POS.Capa_presentacion.frmCategoria_eliminar.resources
+C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\obj\Debug\Proyecto_POS.Capa_presentacion.frmPruebas.resources
+C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\obj\Debug\Proyecto_POS.Capa_presentacion.frmRegistrar_venta.resources

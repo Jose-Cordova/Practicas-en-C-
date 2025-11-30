@@ -46,18 +46,48 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Capa_datos\CategoriaDAL.cs" />
     <Compile Include="Capa_datos\Cliente_DAL.cs" />
     <Compile Include="Capa_datos\Conexion_DB.cs" />
+    <Compile Include="Capa_datos\Metodos_pago_DAL.cs" />
+    <Compile Include="Capa_datos\Productos_DAL.cs" />
+    <Compile Include="Capa_datos\VentaDAL.cs" />
+    <Compile Include="Capa_entidades\Categoria.cs" />
     <Compile Include="Capa_entidades\ClassProducto.cs" />
     <Compile Include="Capa_entidades\ClassValidaciones.cs" />
     <Compile Include="Capa_entidades\Clientes.cs" />
     <Compile Include="Capa_entidades\Cliente_2.cs" />
+    <Compile Include="Capa_entidades\Detalles_venta.cs" />
+    <Compile Include="Capa_entidades\Metodos_pago.cs" />
+    <Compile Include="Capa_entidades\Productos.cs" />
+    <Compile Include="Capa_entidades\Respuestas_operacion.cs" />
+    <Compile Include="Capa_entidades\Ventas.cs" />
+    <Compile Include="Capa_negocio\CategoriaBLL.cs" />
     <Compile Include="Capa_negocio\Cliente_BLL.cs" />
+    <Compile Include="Capa_negocio\VentaBLL.cs" />
     <Compile Include="Capa_presentacion\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Capa_presentacion\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa_presentacion\frmCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa_presentacion\frmCategoria.Designer.cs">
+      <DependentUpon>frmCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa_presentacion\frmCategoria_eliminar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa_presentacion\frmCategoria_eliminar.Designer.cs">
+      <DependentUpon>frmCategoria_eliminar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa_presentacion\frmCategoria_gestion2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa_presentacion\frmCategoria_gestion2.Designer.cs">
+      <DependentUpon>frmCategoria_gestion2.cs</DependentUpon>
     </Compile>
     <Compile Include="Capa_presentacion\frmClientes.cs">
       <SubType>Form</SubType>
@@ -77,10 +107,31 @@
     <Compile Include="Capa_presentacion\frmProductos.Designer.cs">
       <DependentUpon>frmProductos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Capa_presentacion\frmPruebas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa_presentacion\frmPruebas.Designer.cs">
+      <DependentUpon>frmPruebas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa_presentacion\frmRegistrar_venta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa_presentacion\frmRegistrar_venta.Designer.cs">
+      <DependentUpon>frmRegistrar_venta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Capa_presentacion\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa_presentacion\frmCategoria.resx">
+      <DependentUpon>frmCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa_presentacion\frmCategoria_eliminar.resx">
+      <DependentUpon>frmCategoria_eliminar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa_presentacion\frmCategoria_gestion2.resx">
+      <DependentUpon>frmCategoria_gestion2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Capa_presentacion\frmClientes.resx">
       <DependentUpon>frmClientes.cs</DependentUpon>
@@ -90,6 +141,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Capa_presentacion\frmProductos.resx">
       <DependentUpon>frmProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa_presentacion\frmPruebas.resx">
+      <DependentUpon>frmPruebas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa_presentacion\frmRegistrar_venta.resx">
+      <DependentUpon>frmRegistrar_venta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
