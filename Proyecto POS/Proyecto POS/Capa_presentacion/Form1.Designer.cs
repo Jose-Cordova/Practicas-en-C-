@@ -52,15 +52,15 @@
             this.PanelIzquierdo = new System.Windows.Forms.Panel();
             this.btnCerrarSesion = new System.Windows.Forms.Button();
             this.btnUsuarios = new System.Windows.Forms.Button();
-            this.btnSalir = new System.Windows.Forms.Button();
+            this.btnReportePDF = new System.Windows.Forms.Button();
             this.btnCorteCaja = new System.Windows.Forms.Button();
             this.btnInventario = new System.Windows.Forms.Button();
             this.btnClientes = new System.Windows.Forms.Button();
             this.btnProducto = new System.Windows.Forms.Button();
             this.btmVentaRapida = new System.Windows.Forms.Button();
             this.panelCentral = new System.Windows.Forms.Panel();
-            this.logoPOST = new System.Windows.Forms.PictureBox();
             this.lblUsuario = new System.Windows.Forms.Label();
+            this.logoPOST = new System.Windows.Forms.PictureBox();
             this.menuSuperior.SuspendLayout();
             this.PanelIzquierdo.SuspendLayout();
             this.panelCentral.SuspendLayout();
@@ -225,7 +225,7 @@
             this.PanelIzquierdo.BackColor = System.Drawing.Color.SaddleBrown;
             this.PanelIzquierdo.Controls.Add(this.btnCerrarSesion);
             this.PanelIzquierdo.Controls.Add(this.btnUsuarios);
-            this.PanelIzquierdo.Controls.Add(this.btnSalir);
+            this.PanelIzquierdo.Controls.Add(this.btnReportePDF);
             this.PanelIzquierdo.Controls.Add(this.btnCorteCaja);
             this.PanelIzquierdo.Controls.Add(this.btnInventario);
             this.PanelIzquierdo.Controls.Add(this.btnClientes);
@@ -273,23 +273,23 @@
             this.btnUsuarios.UseVisualStyleBackColor = false;
             this.btnUsuarios.Click += new System.EventHandler(this.btnUsuarios_Click);
             // 
-            // btnSalir
+            // btnReportePDF
             // 
-            this.btnSalir.BackColor = System.Drawing.Color.Bisque;
-            this.btnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSalir.FlatAppearance.BorderSize = 2;
-            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSalir.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir.Image = ((System.Drawing.Image)(resources.GetObject("btnSalir.Image")));
-            this.btnSalir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSalir.Location = new System.Drawing.Point(12, 323);
-            this.btnSalir.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(180, 55);
-            this.btnSalir.TabIndex = 5;
-            this.btnSalir.Text = "Salir";
-            this.btnSalir.UseVisualStyleBackColor = false;
-            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            this.btnReportePDF.BackColor = System.Drawing.Color.Bisque;
+            this.btnReportePDF.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnReportePDF.FlatAppearance.BorderSize = 2;
+            this.btnReportePDF.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReportePDF.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReportePDF.Image = ((System.Drawing.Image)(resources.GetObject("btnReportePDF.Image")));
+            this.btnReportePDF.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnReportePDF.Location = new System.Drawing.Point(12, 323);
+            this.btnReportePDF.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
+            this.btnReportePDF.Name = "btnReportePDF";
+            this.btnReportePDF.Size = new System.Drawing.Size(180, 55);
+            this.btnReportePDF.TabIndex = 5;
+            this.btnReportePDF.Text = "Generar reporte";
+            this.btnReportePDF.UseVisualStyleBackColor = false;
+            this.btnReportePDF.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // btnCorteCaja
             // 
@@ -372,7 +372,7 @@
             this.btmVentaRapida.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btmVentaRapida.Image = ((System.Drawing.Image)(resources.GetObject("btmVentaRapida.Image")));
             this.btmVentaRapida.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btmVentaRapida.Location = new System.Drawing.Point(12, 13);
+            this.btmVentaRapida.Location = new System.Drawing.Point(12, 10);
             this.btmVentaRapida.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
             this.btmVentaRapida.Name = "btmVentaRapida";
             this.btmVentaRapida.Size = new System.Drawing.Size(180, 55);
@@ -392,16 +392,6 @@
             this.panelCentral.Size = new System.Drawing.Size(582, 522);
             this.panelCentral.TabIndex = 2;
             // 
-            // logoPOST
-            // 
-            this.logoPOST.Image = ((System.Drawing.Image)(resources.GetObject("logoPOST.Image")));
-            this.logoPOST.Location = new System.Drawing.Point(55, 35);
-            this.logoPOST.Name = "logoPOST";
-            this.logoPOST.Size = new System.Drawing.Size(479, 443);
-            this.logoPOST.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.logoPOST.TabIndex = 0;
-            this.logoPOST.TabStop = false;
-            // 
             // lblUsuario
             // 
             this.lblUsuario.AutoSize = true;
@@ -411,6 +401,16 @@
             this.lblUsuario.TabIndex = 3;
             this.lblUsuario.Text = "label1";
             this.lblUsuario.Click += new System.EventHandler(this.lblUsuario_Click);
+            // 
+            // logoPOST
+            // 
+            this.logoPOST.Image = ((System.Drawing.Image)(resources.GetObject("logoPOST.Image")));
+            this.logoPOST.Location = new System.Drawing.Point(55, 35);
+            this.logoPOST.Name = "logoPOST";
+            this.logoPOST.Size = new System.Drawing.Size(479, 443);
+            this.logoPOST.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.logoPOST.TabIndex = 0;
+            this.logoPOST.TabStop = false;
             // 
             // MenuScript
             // 
@@ -461,7 +461,7 @@
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.Panel PanelIzquierdo;
         private System.Windows.Forms.Button btmVentaRapida;
-        private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.Button btnReportePDF;
         private System.Windows.Forms.Button btnCorteCaja;
         private System.Windows.Forms.Button btnInventario;
         private System.Windows.Forms.Button btnClientes;
