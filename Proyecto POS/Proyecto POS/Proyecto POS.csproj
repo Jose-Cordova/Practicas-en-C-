@@ -51,6 +51,7 @@
     <Compile Include="Capa_datos\Conexion_DB.cs" />
     <Compile Include="Capa_datos\Metodos_pago_DAL.cs" />
     <Compile Include="Capa_datos\Productos_DAL.cs" />
+    <Compile Include="Capa_datos\UsuarioDAL.cs" />
     <Compile Include="Capa_datos\VentaDAL.cs" />
     <Compile Include="Capa_entidades\Categoria.cs" />
     <Compile Include="Capa_entidades\ClassProducto.cs" />
@@ -61,15 +62,25 @@
     <Compile Include="Capa_entidades\Metodos_pago.cs" />
     <Compile Include="Capa_entidades\Productos.cs" />
     <Compile Include="Capa_entidades\Respuestas_operacion.cs" />
+    <Compile Include="Capa_entidades\Seguridad.cs" />
+    <Compile Include="Capa_entidades\SesionActual.cs" />
+    <Compile Include="Capa_entidades\Usuario.cs" />
     <Compile Include="Capa_entidades\Ventas.cs" />
     <Compile Include="Capa_negocio\CategoriaBLL.cs" />
     <Compile Include="Capa_negocio\Cliente_BLL.cs" />
+    <Compile Include="Capa_negocio\UsuarioBLL.cs" />
     <Compile Include="Capa_negocio\VentaBLL.cs" />
     <Compile Include="Capa_presentacion\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Capa_presentacion\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capa_presentacion\frmCambiarClave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa_presentacion\frmCambiarClave.Designer.cs">
+      <DependentUpon>frmCambiarClave.cs</DependentUpon>
     </Compile>
     <Compile Include="Capa_presentacion\frmCategoria.cs">
       <SubType>Form</SubType>
@@ -101,6 +112,12 @@
     <Compile Include="Capa_presentacion\frmClientes_2.Designer.cs">
       <DependentUpon>frmClientes_2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Capa_presentacion\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa_presentacion\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Capa_presentacion\frmProductos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,10 +136,19 @@
     <Compile Include="Capa_presentacion\frmRegistrar_venta.Designer.cs">
       <DependentUpon>frmRegistrar_venta.cs</DependentUpon>
     </Compile>
+    <Compile Include="Capa_presentacion\frmUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa_presentacion\frmUsuario.Designer.cs">
+      <DependentUpon>frmUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Capa_presentacion\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa_presentacion\frmCambiarClave.resx">
+      <DependentUpon>frmCambiarClave.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Capa_presentacion\frmCategoria.resx">
       <DependentUpon>frmCategoria.cs</DependentUpon>
@@ -139,6 +165,9 @@
     <EmbeddedResource Include="Capa_presentacion\frmClientes_2.resx">
       <DependentUpon>frmClientes_2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Capa_presentacion\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Capa_presentacion\frmProductos.resx">
       <DependentUpon>frmProductos.cs</DependentUpon>
     </EmbeddedResource>
@@ -147,6 +176,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Capa_presentacion\frmRegistrar_venta.resx">
       <DependentUpon>frmRegistrar_venta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa_presentacion\frmUsuario.resx">
+      <DependentUpon>frmUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
