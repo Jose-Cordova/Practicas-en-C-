@@ -42,12 +42,9 @@ namespace Proyecto_POS
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
-            //Advertencia antes de cerrar el formulario
-            if (MessageBox.Show("¿Está seguro de cerrar el programa?", "Confirmar",
-            MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-            {
-                this.Close(); //Cerrar el formulario
-            }
+            frmReporteVenta frm = new frmReporteVenta();
+            frm.ShowDialog();
+
         }
 
         private void MenuScript_Load(object sender, EventArgs e)
