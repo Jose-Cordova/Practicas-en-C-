@@ -28,3 +28,6 @@ C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\obj\Debug\Proyec
 C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\obj\Debug\Proyecto_POS.Capa_presentacion.frmCategoria_eliminar.resources
 C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\obj\Debug\Proyecto_POS.Capa_presentacion.frmPruebas.resources
 C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\obj\Debug\Proyecto_POS.Capa_presentacion.frmRegistrar_venta.resources
+C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\obj\Debug\Proyecto_POS.Capa_presentacion.frmLogin.resources
+C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\obj\Debug\Proyecto_POS.Capa_presentacion.frmCambiarClave.resources
+C:\Users\jose6\Documents\Practicas C#\Proyecto POS\Proyecto POS\obj\Debug\Proyecto_POS.Capa_presentacion.frmUsuario.resources

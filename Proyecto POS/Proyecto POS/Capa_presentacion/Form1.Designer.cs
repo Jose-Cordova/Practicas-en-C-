@@ -48,7 +48,10 @@
             this.produxtoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cierreDeCajaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.CambiarClave = new System.Windows.Forms.ToolStripMenuItem();
             this.PanelIzquierdo = new System.Windows.Forms.Panel();
+            this.btnCerrarSesion = new System.Windows.Forms.Button();
+            this.btnUsuarios = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
             this.btnCorteCaja = new System.Windows.Forms.Button();
             this.btnInventario = new System.Windows.Forms.Button();
@@ -57,6 +60,7 @@
             this.btmVentaRapida = new System.Windows.Forms.Button();
             this.panelCentral = new System.Windows.Forms.Panel();
             this.logoPOST = new System.Windows.Forms.PictureBox();
+            this.lblUsuario = new System.Windows.Forms.Label();
             this.menuSuperior.SuspendLayout();
             this.PanelIzquierdo.SuspendLayout();
             this.panelCentral.SuspendLayout();
@@ -72,7 +76,8 @@
             this.gestíonToolStripMenuItem,
             this.ventasToolStripMenuItem,
             this.reportesToolStripMenuItem,
-            this.salirToolStripMenuItem});
+            this.salirToolStripMenuItem,
+            this.CambiarClave});
             this.menuSuperior.Location = new System.Drawing.Point(0, 0);
             this.menuSuperior.Name = "menuSuperior";
             this.menuSuperior.Size = new System.Drawing.Size(782, 31);
@@ -208,9 +213,18 @@
             this.salirToolStripMenuItem.Size = new System.Drawing.Size(56, 27);
             this.salirToolStripMenuItem.Text = "Salir";
             // 
+            // CambiarClave
+            // 
+            this.CambiarClave.Name = "CambiarClave";
+            this.CambiarClave.Size = new System.Drawing.Size(134, 27);
+            this.CambiarClave.Text = "Cambiar Clave";
+            this.CambiarClave.Click += new System.EventHandler(this.cambiarClaveToolStripMenuItem_Click);
+            // 
             // PanelIzquierdo
             // 
             this.PanelIzquierdo.BackColor = System.Drawing.Color.SaddleBrown;
+            this.PanelIzquierdo.Controls.Add(this.btnCerrarSesion);
+            this.PanelIzquierdo.Controls.Add(this.btnUsuarios);
             this.PanelIzquierdo.Controls.Add(this.btnSalir);
             this.PanelIzquierdo.Controls.Add(this.btnCorteCaja);
             this.PanelIzquierdo.Controls.Add(this.btnInventario);
@@ -223,6 +237,42 @@
             this.PanelIzquierdo.Size = new System.Drawing.Size(200, 522);
             this.PanelIzquierdo.TabIndex = 1;
             // 
+            // btnCerrarSesion
+            // 
+            this.btnCerrarSesion.BackColor = System.Drawing.Color.Bisque;
+            this.btnCerrarSesion.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCerrarSesion.FlatAppearance.BorderSize = 2;
+            this.btnCerrarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCerrarSesion.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCerrarSesion.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrarSesion.Image")));
+            this.btnCerrarSesion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCerrarSesion.Location = new System.Drawing.Point(12, 448);
+            this.btnCerrarSesion.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
+            this.btnCerrarSesion.Name = "btnCerrarSesion";
+            this.btnCerrarSesion.Size = new System.Drawing.Size(180, 55);
+            this.btnCerrarSesion.TabIndex = 7;
+            this.btnCerrarSesion.Text = "Cerrar Seccion";
+            this.btnCerrarSesion.UseVisualStyleBackColor = false;
+            this.btnCerrarSesion.Click += new System.EventHandler(this.btnCerrarSesion_Click);
+            // 
+            // btnUsuarios
+            // 
+            this.btnUsuarios.BackColor = System.Drawing.Color.Bisque;
+            this.btnUsuarios.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnUsuarios.FlatAppearance.BorderSize = 2;
+            this.btnUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUsuarios.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUsuarios.Image = ((System.Drawing.Image)(resources.GetObject("btnUsuarios.Image")));
+            this.btnUsuarios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnUsuarios.Location = new System.Drawing.Point(12, 386);
+            this.btnUsuarios.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
+            this.btnUsuarios.Name = "btnUsuarios";
+            this.btnUsuarios.Size = new System.Drawing.Size(180, 55);
+            this.btnUsuarios.TabIndex = 6;
+            this.btnUsuarios.Text = "Usuarios";
+            this.btnUsuarios.UseVisualStyleBackColor = false;
+            this.btnUsuarios.Click += new System.EventHandler(this.btnUsuarios_Click);
+            // 
             // btnSalir
             // 
             this.btnSalir.BackColor = System.Drawing.Color.Bisque;
@@ -232,7 +282,7 @@
             this.btnSalir.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalir.Image = ((System.Drawing.Image)(resources.GetObject("btnSalir.Image")));
             this.btnSalir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSalir.Location = new System.Drawing.Point(12, 448);
+            this.btnSalir.Location = new System.Drawing.Point(12, 323);
             this.btnSalir.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(180, 55);
@@ -250,7 +300,7 @@
             this.btnCorteCaja.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCorteCaja.Image = ((System.Drawing.Image)(resources.GetObject("btnCorteCaja.Image")));
             this.btnCorteCaja.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCorteCaja.Location = new System.Drawing.Point(12, 358);
+            this.btnCorteCaja.Location = new System.Drawing.Point(12, 259);
             this.btnCorteCaja.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
             this.btnCorteCaja.Name = "btnCorteCaja";
             this.btnCorteCaja.Size = new System.Drawing.Size(180, 55);
@@ -268,7 +318,7 @@
             this.btnInventario.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInventario.Image = ((System.Drawing.Image)(resources.GetObject("btnInventario.Image")));
             this.btnInventario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnInventario.Location = new System.Drawing.Point(12, 274);
+            this.btnInventario.Location = new System.Drawing.Point(12, 196);
             this.btnInventario.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
             this.btnInventario.Name = "btnInventario";
             this.btnInventario.Size = new System.Drawing.Size(180, 55);
@@ -285,7 +335,7 @@
             this.btnClientes.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClientes.Image = ((System.Drawing.Image)(resources.GetObject("btnClientes.Image")));
             this.btnClientes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClientes.Location = new System.Drawing.Point(12, 190);
+            this.btnClientes.Location = new System.Drawing.Point(12, 133);
             this.btnClientes.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
             this.btnClientes.Name = "btnClientes";
             this.btnClientes.Size = new System.Drawing.Size(180, 55);
@@ -303,7 +353,7 @@
             this.btnProducto.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProducto.Image = ((System.Drawing.Image)(resources.GetObject("btnProducto.Image")));
             this.btnProducto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnProducto.Location = new System.Drawing.Point(12, 100);
+            this.btnProducto.Location = new System.Drawing.Point(12, 72);
             this.btnProducto.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
             this.btnProducto.Name = "btnProducto";
             this.btnProducto.Size = new System.Drawing.Size(180, 55);
@@ -334,6 +384,7 @@
             // panelCentral
             // 
             this.panelCentral.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panelCentral.Controls.Add(this.lblUsuario);
             this.panelCentral.Controls.Add(this.logoPOST);
             this.panelCentral.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelCentral.Location = new System.Drawing.Point(200, 31);
@@ -351,6 +402,16 @@
             this.logoPOST.TabIndex = 0;
             this.logoPOST.TabStop = false;
             // 
+            // lblUsuario
+            // 
+            this.lblUsuario.AutoSize = true;
+            this.lblUsuario.Location = new System.Drawing.Point(278, 13);
+            this.lblUsuario.Name = "lblUsuario";
+            this.lblUsuario.Size = new System.Drawing.Size(44, 16);
+            this.lblUsuario.TabIndex = 3;
+            this.lblUsuario.Text = "label1";
+            this.lblUsuario.Click += new System.EventHandler(this.lblUsuario_Click);
+            // 
             // MenuScript
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -365,10 +426,12 @@
             this.Name = "MenuScript";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sistema POS Cafeteria Dulce Aroma";
+            this.Load += new System.EventHandler(this.MenuScript_Load);
             this.menuSuperior.ResumeLayout(false);
             this.menuSuperior.PerformLayout();
             this.PanelIzquierdo.ResumeLayout(false);
             this.panelCentral.ResumeLayout(false);
+            this.panelCentral.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logoPOST)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -405,6 +468,10 @@
         private System.Windows.Forms.Button btnProducto;
         private System.Windows.Forms.Panel panelCentral;
         private System.Windows.Forms.PictureBox logoPOST;
+        private System.Windows.Forms.Button btnCerrarSesion;
+        private System.Windows.Forms.Button btnUsuarios;
+        private System.Windows.Forms.ToolStripMenuItem CambiarClave;
+        private System.Windows.Forms.Label lblUsuario;
     }
 }
 
